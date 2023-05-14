@@ -22,7 +22,7 @@ services:
     depends_on:
       - web
 
-  web:
+  app:
     build:
       context: '.'
       dockerfile: Dockerfile
